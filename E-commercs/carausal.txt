@@ -1,0 +1,268 @@
+.main-card {
+    margin-top: 76px;
+    width: 1097px;
+    height: 363px;
+    box-shadow: 0px 16px 48px #00000029;
+    border-radius: 42px;
+    opacity: 1;
+}
+
+.card {
+    display: grid;
+    width: 308px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+}
+
+.card-img img {
+    margin-top: 39px;
+    width: 64px;
+    height: 63px;
+}
+
+.card-img {
+    display: flex;
+}
+
+.card-img p {
+    display: flex;
+    margin-top: 53px;
+    margin-left: 13px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.star {
+    margin-left: 20px;
+}
+
+.star img {
+    width: 15px;
+    height: 14px;
+}
+
+.name {
+    margin-top: -15px;
+}
+
+.name p {
+    font-size: 12px;
+    margin-left: -5px;
+}
+
+.client-img img {
+    width: 42px;
+    height: 43px;
+}
+
+
+
+//html
+ <div class="sort-lorem">
+      <h1>Lorem ipsum dolor sit .</h1>
+    </div>
+
+    <div class="main-card container">
+      <div class="card-body">
+        <h5 class="card-img">
+          <img src="./imgs/green-star.png" alt="" />
+          <p>Lorem ipsum dolor sit .</p>
+        </h5>
+      </div>
+      <div class="d-flex container mt-5 carousel-container">
+        <div class="carousel">
+          <div class="card" style="width: 285px; height: 263px">
+            <h6 class="d-flex">
+              <div class="client-img">
+                <img src="./imgs/review-1.png" alt="" />
+              </div>
+              <div class="name">
+                <p>Jhon Doe</p>
+                <p style="margin-top: -10px">CEO</p>
+              </div>
+              <div class="star">
+                <img src="./imgs/start.png" alt="" />
+                <img src="./imgs/start.png" alt="" />
+                <img src="./imgs/start.png" alt="" />
+                <img src="./imgs/start.png" alt="" />
+              </div>
+            </h6>
+            <p style="font-size: 13px; margin-top: -1px">
+              Lorem ipsum dolor it amet, consectetur adipiscing elit. Ut sed
+              commodo est. Pellentesque eu placerat mauris. Etiam ut maximus
+              ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+              diam a justo sollicitudin mattis eu sagittis nunc. In hac
+              habitasse platea dictumst.
+            </p>
+          </div>
+          <div class="card" style="width: 285px; height: 263px">
+            <h6 class="d-flex">
+              <div class="client-img">
+                <img src="./imgs/review-2.png" alt="" />
+              </div>
+              <div class="name">
+                <p style="font-size: 12px">Amanda green</p>
+                <div class="star" style="margin-left: 100px; margin-top: -35px">
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                </div>
+              </div>
+            </h6>
+            <p style="font-size: 12px; margin-top: -30px; margin-left: 50px">
+              Operations Manager
+            </p>
+            <p style="font-size: 13px">
+              Lorem ipsum dolor it amet, consectetur adipiscing elit. Ut sed
+              commodo est. Pellentesque eu placerat mauris. Etiam ut maximus
+              ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+              diam a justo sollicitudin mattis eu sagittis nunc. In hac
+              habitasse platea dictumst.
+            </p>
+          </div>
+          <div class="card" style="width: 285px; height: 263px">
+            <h6 class="d-flex">
+              <div class="client-img">
+                <img src="./imgs/review-3.png" alt="" />
+              </div>
+              <div class="name">
+                <p style="font-size: 12px">Sam Cooper</p>
+                <div class="star" style="margin-left: 100px; margin-top: -35px">
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                </div>
+              </div>
+            </h6>
+            <p style="font-size: 12px; margin-top: -30px; margin-left: 50px">
+              Customer Service Manager
+            </p>
+            <p style="font-size: 13px">
+              Lorem ipsum dolor it amet, consectetur adipiscing elit. Ut sed
+              commodo est. Pellentesque eu placerat mauris. Etiam ut maximus
+              ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+              diam a justo sollicitudin mattis eu sagittis nunc. In hac
+              habitasse platea dictumst.
+            </p>
+          </div>
+          <div class="card" style="width: 285px; height: 263px">
+            <h6 class="d-flex">
+              <div class="client-img">
+                <img src="./imgs/review-1.png" alt="" />
+              </div>
+              <div class="name">
+                <p>Jhon Doe</p>
+                <p style="margin-top: -10px">CEO</p>
+              </div>
+              <div class="star">
+                <img src="./imgs/start.png" alt="" />
+                <img src="./imgs/start.png" alt="" />
+                <img src="./imgs/start.png" alt="" />
+                <img src="./imgs/start.png" alt="" />
+              </div>
+            </h6>
+            <p style="font-size: 13px; margin-top: -1px">
+              Lorem ipsum dolor it amet, consectetur adipiscing elit. Ut sed
+              commodo est. Pellentesque eu placerat mauris. Etiam ut maximus
+              ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+              diam a justo sollicitudin mattis eu sagittis nunc. In hac
+              habitasse platea dictumst.
+            </p>
+          </div>
+          <div class="card" style="width: 285px; height: 263px">
+            <h6 class="d-flex">
+              <div class="client-img">
+                <img src="./imgs/review-2.png" alt="" />
+              </div>
+              <div class="name">
+                <p style="font-size: 12px">Amanda green</p>
+                <div class="star" style="margin-left: 100px; margin-top: -35px">
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                </div>
+              </div>
+            </h6>
+            <p style="font-size: 12px; margin-top: -30px; margin-left: 50px">
+              Operations Manager
+            </p>
+            <p style="font-size: 13px">
+              Lorem ipsum dolor it amet, consectetur adipiscing elit. Ut sed
+              commodo est. Pellentesque eu placerat mauris. Etiam ut maximus
+              ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+              diam a justo sollicitudin mattis eu sagittis nunc. In hac
+              habitasse platea dictumst.
+            </p>
+          </div>
+          <div class="card" style="width: 285px; height: 263px">
+            <h6 class="d-flex">
+              <div class="client-img">
+                <img src="./imgs/review-3.png" alt="" />
+              </div>
+              <div class="name">
+                <p style="font-size: 12px">Sam Cooper</p>
+                <div class="star" style="margin-left: 100px; margin-top: -35px">
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                  <img src="./imgs/start.png" alt="" />
+                </div>
+              </div>
+            </h6>
+            <p style="font-size: 12px; margin-top: -30px; margin-left: 50px">
+              Customer Service Manager
+            </p>
+            <p style="font-size: 13px">
+              Lorem ipsum dolor it amet, consectetur adipiscing elit. Ut sed
+              commodo est. Pellentesque eu placerat mauris. Etiam ut maximus
+              ante. Suspendisse varius dolor nec bibendum dignissim. Proin in
+              diam a justo sollicitudin mattis eu sagittis nunc. In hac
+              habitasse platea dictumst.
+            </p>
+          </div>
+        </div>
+        <button class="carousel-prev">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="carousel-next">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+
+
+//js
+// JavaScript code to handle carousel functionality
+const carousel = document.querySelector(".carousel");
+const prevButton = document.querySelector(".carousel-prev");
+const nextButton = document.querySelector(".carousel-next");
+
+let translateX = 0;
+const cardWidth = document.querySelector(".card").offsetWidth;
+
+prevButton.addEventListener("click", () => {
+  if (translateX !== 0) {
+    translateX += cardWidth + 20;
+    carousel.style.transform = `translateX(${translateX}px)`;
+  }
+});
+
+nextButton.addEventListener("click", () => {
+  const containerWidth = document.querySelector(
+    ".carousel-container"
+  ).offsetWidth;
+  const cardsWidth = document.querySelector(".carousel").offsetWidth;
+
+  if (translateX > -(cardsWidth - containerWidth)) {
+    translateX -= cardWidth + 20;
+    carousel.style.transform = `translateX(${translateX}px)`;
+  }
+});
