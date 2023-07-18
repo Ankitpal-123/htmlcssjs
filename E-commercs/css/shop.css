@@ -1,0 +1,48 @@
+#pageheader {
+    background-image: url("../img/banner/b1.jpg");
+    height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#pageheader h2 {
+    color: #fff;
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+#pageheader p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* pagination */
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    background-color: #088178;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination .a3 {
+    margin-left: 5px;
+}
+
+#pagination .a3 i {
+    font-size: 20px;
+    font-weight: 600px;
+}
